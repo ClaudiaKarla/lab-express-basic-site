@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   }
+   
+   body{
+       width: 100vw;
+       height: 100vh;
+       background-image: url("./public/imagenes/tay.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       flex-direction:column;
+       align-items:center;
+   }
+
+ 
+button{
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: 80px;
+    background-color:transparent;
+    color: black;
+    font-size: 20px;
+    border:transparent;
+}
+
+button:hover{
+    background-color:rgb(16, 142, 192);
+    animation:tada;
+        animation-duration: 2s;
+}
+
+h1{
+    font-size: 25px; 
+ color:black;
+   
+}
